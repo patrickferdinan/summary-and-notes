@@ -1,0 +1,169 @@
+<!-- Tipos de dados -->
+<!-- 
+ 
+  * Primitive / Primitive value 
+  * Structural
+  * Structural Primitive
+
+  ##Primitivos
+    -String
+    -Number
+    -Boolean
+    -undefined
+    -Symbol
+    -BigInteger
+
+  ##Estruturais
+    -Object
+      Array
+      Map
+      Set
+      Date
+      ...
+    -Function
+
+  ##Primitivo Estrutural / Structural Root Primitive
+    -Null
+
+    Fonte: MDN - Standart built-in objects
+ -->
+
+<!-- 
+  String
+    *Cadeia de caracteres
+      "" - aspas duplas
+      '' - aspas simples
+      `` - template literals ou template strings
+  Ex: let nome = 'Nome';
+
+  Number
+    *números
+      32       - inteiros
+      12.5     - reais/float
+      NaN      - Not anumber
+      Infinity - infinito
+  Ex: let numero = 13;
+
+  Boolean
+    *Booleanos, somente dois valores
+      true  - verdadeiro
+      false - falso
+  Ex: let verdadeiro = true;
+
+  Undefined vs null
+    *indefinido
+      algo que não existe
+    Ex: undefined
+    *null 
+      existe porém é um objeto que não possui nada dentro
+    Ex: let teste = null;
+
+  Object
+    *É uma estrutura que tem propriedades e se o objeto tem funcionalidades ele é um método.
+    Propriedades - Atributos
+    Funcionalidades - Métodos
+  Ex: {propriedade: "valor",
+       funcionalidade: metodo(){}
+      }
+
+  Array
+      *Uma lista ou agrupamento de dados
+  Ex: ['1', '2', '3' ...]
+
+ -->
+
+
+
+ <!-- Variáveis -->
+ <!-- 
+   ## O JS é uma linguagem fracamente tipada e dinâmica.
+   ## Variáveis não precisam ter um tipo previamente definido.
+   ## Podemos mudar o conteúdo da variável.
+
+    -Nomes simbólicos para receber algum valor
+    -Atalhos de código
+    -Identificadores
+    -3 palavras reservadas para criar uma variável
+      * var
+      * let 
+      * const
+  -->
+  <!-- 
+    # Scope
+
+      * Escopo determina a visibilidade de alguma variável no Js.
+      Ex: {escopo}
+
+    # Block statement
+      * Quando criar uma nova declaração de bloco `{}`, também criará um novo escopo. Chamamos de `block-scoped`.
+
+    # Var
+      * Hoisting
+      * É global e poderá funcionar fora de um escopo de bloco.
+
+    # Let
+      * É local e só funciona no escopo onde foi criado.
+
+    # Const
+      * É local e só funciona no escopo onde foi criado, e o seu valor é unico e não alteravel.
+   -->
+   <!-- 
+     # Variáveis e tipos de dados
+
+        * declaração or declaration
+        var name;
+
+        * atribuição de valores or assignment
+        name = "Gustavo"
+
+        * tipo de dado foi colocado na variável
+        console.log(typeof name);
+
+        * agrupando declarações
+        let age, isHuman;
+
+     # Concatenando e interponado variáveis
+
+        * múltiplos argumentos
+        console.log(name, age, isHuman);
+
+        * concatenar variáveis 
+        console.log('o' + name + 'tem' + age + 'anos.');
+
+        * interpolação de valores
+        console.log(`o ${name} tem ${age} anos.`);
+    -->
+
+    <!-- Objects -->
+
+    <!-- 
+      EX:
+        const person = {
+          name: 'John',
+          age: 30,
+          weight: 88.6,
+          isAdmin: true
+        }
+
+        console.log(${person.name} tem ${person.age} anos.);
+     -->
+
+    <!-- Arrays -->
+
+    <!-- 
+      Ex:
+        const animals = [
+        'Lion',
+        'Tiger',
+        'Bear',
+        'Eagle',
+        {
+          name: 'Monkey',
+          age: 1
+        }
+        ]
+        
+        console.log(animals[4].name);
+        console.log(animals.lenght);
+     -->
+    
