@@ -197,4 +197,40 @@
         * Argumentos
         sum(2,3)
 
+        # Arrow Functions
+
+        const sayMyName = (name) => {
+          console.log(name)
+        }
+
+        sayMyName('Mayk')
+
+        # Callback Function
+        * É uma função passando como parâmeto outra função.
+
+        function sayMyName(name){
+          console.log(name)
+          name()
+        }
+
+        sayMyName(
+          () => {
+            console.log('estou em uma callback')
+          }
+        )
+
+        # Fuções construtoras
+          * Expressão new
+          * Criar um novo objeto
+          * This keyword
+
+          //Construtores o nome começa com a letra maiuscula, como boa prática.
+          //Contrutores usa a palavra this."alguma coisa" para criar o molde.
+
+        function Person(){
+          this.name = name;
+        }
+
+        const mayk = new Person()
      -->
+
